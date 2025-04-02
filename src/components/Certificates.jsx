@@ -49,9 +49,11 @@ const Certificates = () => {
             <div className="w-full flex">
                 <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
-                    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
-                    Below are the certifications I have earned, demonstrating my knowledge and
+                    Below are the certifications I have earned from <a href="https://w3schools.com"
+                className={`text-green-400 hover:text-green-600`}>
+                    w3schools.com
+                </a> (the world's largest web developer site) demonstrating my knowledge and
                     proficiency in various technologies.
                 </motion.p>
             </div>
